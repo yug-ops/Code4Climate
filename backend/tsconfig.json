@@ -1,0 +1,29 @@
+{
+    "paths": {
+  "@config/*": ["src/config/*"]
+},
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "ESNext",
+    "target": "ES2020",
+    "moduleResolution": "Bundler",
+    "lib": ["ESNext"],
+    "types": ["node"],
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": false,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
